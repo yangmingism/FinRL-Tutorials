@@ -1,29 +1,29 @@
-We show a workflow of applying RL in algorithmic trading, which is a reproduction and improvement of the process in the [NeurIPS 2018 paper](https://arxiv.org/abs/1811.07522).
+我们展示了在算法交易中应用 RL 的工作流程，它是对 [NeurIPS 2018 论文](https://arxiv.org/abs/1811.07522) 中流程的复制和改进。
 
-# Usage
+# 使用
 
-## Step I. Data
+## 第一步。数据
 
-First, run the notebook: *Stock_NeurIPS2018_1_Data.ipynb*. 
+首先，运行笔记本：*Stock_NeurIPS2018_1_Data.ipynb*。
 
-It downloads and preprocesses stocks' OHLCV data.
+它会下载和预处理股票的 OHLCV 数据。
 
-It generates two csv files: *train.csv*, *trade.csv*. You can check the provided two sample files.
+它会生成两个 csv 文件：*train.csv*、*trade.csv*。你可以查看提供的两个示例文件。
 
-You are welcome to use your own data. Just make sure adjust the dataframe to proper structure.
+欢迎使用你自己的数据。只需确保将数据框调整为正确的结构。
 
-## Step II. Train a Trading Agent
+## 第二步。训练一个交易代理
 
-Second, run the notebook: *Stock_NeurIPS2018_2_Train.ipynb*. 
+其次，运行笔记本：*Stock_NeurIPS2018_2_Train.ipynb*。
 
-It shows how to process the data into an OpenAI gym-style envrionment, and then train a DRL agent.
+它展示了如何将数据处理成 OpenAI gym 风格的环境，然后训练一个 DRL 代理。
 
-It will generate a trained RL model .zip file. Here, we also provided a training A2C model in .zip file.
+它将生成一个训练好的 RL 模型 .zip 文件。在这里，我们还提供了一个训练好的 A2C 模型，压缩在 .zip 文件中。
 
-## Step III. Backtest
+## 第三步。回测
 
-Finally, run the notebook: *Stock_NeurIPS2018_3_Backtest.ipynb*.
+最后，运行笔记本：*Stock_NeurIPS2018_3_Backtest.ipynb*。
 
-It backtests the trained agent and compares with two baselines: Mean-Variance Optimization and the market DJIA index, respectively.
+它会对训练好的代理进行回测，并分别与两个基准进行比较：均值方差优化和市场 DJIA 指数。
 
-At the end, it will plot a figure of the portfolio value during the backtest process.
+最后，它会绘制回测过程中投资组合价值的图表。

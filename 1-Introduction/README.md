@@ -1,38 +1,37 @@
-## Contents
+## 内容
 
-We provide tutorials for simple tasks.
-
-
-### **1. Stock**
-
-We demonstrate a full pipeline of a stock trading task in [NeurIPS 2018 paper](https://arxiv.org/abs/1811.07522).
-
-In the directory `./Stock_NeurIPS2018`, the three notebooks: ***Stock_NeurIPS2018_1_Data.ipynb***, ***Stock_NeurIPS2018_2_Train.ipynb***, ***Stock_NeurIPS2018_3_Backtest.ipynb*** show a workflow of applying ML/RL in algorithmic trading.
-
-Once you are familiar with the above three files, feel free to run the notebook ***Stock_NeurIPS2018_SB3.ipynb*** and ***Stock_NeurIPS2018_ElegantRL.ipynb*** that follow a similar process to play with different RL libraries.
+我们为简单的任务提供教程。
 
 
-### **2. Portfolio Allocation**
+### **1. 股票**
 
-The notebook ***FinRL_PortfolioAllocation_NeurIPS_2020.ipynb*** shows how to use FinRL do the classic task of portfolio allocation. 
+我们在 [NeurIPS 2018 论文](https://arxiv.org/abs/1811.07522) 中展示了股票交易任务的完整流程。
 
-***FinRL_PortfolioAllocation_NeurIPS_2020.py*** is a single python file that contains all the codes.
+在目录 `./Stock_NeurIPS2018` 中，这三个笔记本：***Stock_NeurIPS2018_1_Data.ipynb***、***Stock_NeurIPS2018_2_Train.ipynb***、***Stock_NeurIPS2018_3_Backtest.ipynb*** 展示了在算法交易中应用 ML/RL 的工作流程。
 
-
-### **3. China A share**
-
-***China_A_share_market_tushare.ipynb*** demonstrates how to trade on China A share market. We connect with the Tushare library to fetch data from China A share market.
+熟悉以上三个文件后，可以随意运行笔记本 ***Stock_NeurIPS2018_SB3.ipynb*** 和  ***Stock_NeurIPS2018_ElegantRL.ipynb***，它们遵循类似的流程，使用不同的 RL 库进行操作。
 
 
-### **4. Stock Fundamental**
+### **2. 投资组合分配**
 
-***Stock_Fundamental.ipynb*** shows the process of training a deep reinforcement learning agent with companies’ fundamental indicators.
+笔记本 ***FinRL_PortfolioAllocation_NeurIPS_2020.ipynb*** 展示了如何使用 FinRL 完成投资组合分配的经典任务。
 
-***China_A_share_market_tushare.py*** is a single python file that contains all the codes.
+***FinRL_PortfolioAllocation_NeurIPS_2020.py*** 是一个包含所有代码的单个 Python 文件。
 
 
-### **5. Forex Trading**
+### **3. 中国 A 股**
 
-**ForexTrading_Demo.ipynb** gives the process of foreign exchange market trading.
+***China_A_share_market_tushare.ipynb*** 展示了如何在中国 A 股市场交易。我们连接 Tushare 库从中国 A 股市场获取数据。
 
-***ForexTrading_Demo.py*** is a single python file that contains all the codes.
+### **4. 股票基本面**
+
+***Stock_Fundamental.ipynb*** 展示了使用公司基本面指标训练深度强化学习代理的过程。
+
+***China_A_share_market_tushare.py*** 是一个包含所有代码的单个 Python 文件.
+
+### **5. 外汇交易**
+
+**ForexTrading_Demo.ipynb** 给出了外汇市场交易的过程。
+
+***ForexTrading_Demo.py*** 是一个包含所有代码的单个 Python 文件.
+
